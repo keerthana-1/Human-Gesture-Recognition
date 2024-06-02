@@ -25,3 +25,37 @@
 - Calculate the cluster ratios for each sample.
 - Merge these ratios back with the original dataset.
 - Save the final DataFrame to a CSV file.
+
+## Phase 3:
+
+Training and evaluating multple classification models
+
+1. K-Nearest Neighbors (KNN)
+
+Test Accuracy: 0.66
+Cross-Validation Accuracy: ~0.98
+
+2. Logistic Regression
+
+Test Accuracy: 0.68
+Cross-Validation Accuracy: ~0.75
+
+3. Random Forest
+
+Test Accuracy: 0.66
+Cross-Validation Accuracy: ~0.98
+
+4. Support Vector Machine (SVM)
+
+Test Accuracy: 0.62
+Cross-Validation Accuracy: ~0.87
+
+5. Multi-Layer Perceptron (MLP)
+
+Test Accuracy: 0.63
+Cross-Validation Accuracy: ~0.97
+
+6. Ensemble Classifier
+
+Test Accuracy: 0.68
+Cross-Validation Accuracy: ~0.97
