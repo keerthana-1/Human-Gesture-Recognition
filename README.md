@@ -1,6 +1,6 @@
 # Human Gesture Recognition using timeseries data
 
-# Phase 1:
+## Phase 1:
 
 1. Read and Process Training Data:
 - Initializes an empty DataFrame final_df.
@@ -17,3 +17,11 @@
 - Reorders columns to have id at the beginning.
    
 4. Save to CSV: Saves the combined DataFrame to a CSV file.
+
+## Phase 2:
+
+- Read the NATOPS_sid_TRAIN.csv file saved from phase1.
+- Perform KMeans clustering on the features for each unique sid.
+- Calculate the cluster ratios for each sample.
+- Merge these ratios back with the original dataset.
+- Save the final DataFrame to a CSV file.
